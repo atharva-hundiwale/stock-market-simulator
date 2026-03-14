@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+    border-radius: 15px;
+    width: 95%;
+    max-width: 650px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+h1 { margin-bottom: 20px; }
+
+.search-box, .sim-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.data-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.features {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.feature-box {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+.stock-item {
+    background: rgba(255,255,255,0.12);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+.top-list {
+    margin-bottom: 20px;
+}
+
+.balance {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.portfolio {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.back-btn {
+    margin-top: 15px;
+    background: #ff9800;
+}
+
+
+
